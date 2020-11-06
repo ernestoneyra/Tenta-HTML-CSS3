@@ -27,34 +27,3 @@ ol{
     list-style-type: upper-roman;
 }
 
-/*.animation-block{
-    margin: 10xp;
-    padding: 25px;
-    border: 1px solid;
-    width: 100px;
-    height: 200px;
-    background-color: yellow;
-    animation-name: div1;
-    animation-duration: 7s;
-    position: relative;
-}
-@keyframes div1 {
-    from {background-color:yellow;}
-    to {background-color: brown;}
-    from {width: 100px;}
-    to {width: 50px;}
-    from {height: 200px;}
-    to {height: 100px;}
-}*/
-/*
-.hoverlist{
-    list-style-type: none;
-    
-}
-.hidden{
-    display: none;
-}
-.hidden:hover{
-    display: block;
-}
-*/
