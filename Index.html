@@ -11,16 +11,67 @@
     <link rel="stylesheet" href="./bs css/bootstrap.min.css">
     <!--Min egen css fil som ändrar Bootstraps css-->
     <link rel="stylesheet" href="./css/Style.css">
-    <title>Tenta</title>
+    <title>Tenta. Startsida</title>
 </head>
+<nav class="navbar navbar-dark navbar-expand-sm">
+    <div class="container">
+        <div class="navbar-brand">Ernesto Tenta</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myToggleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myTogglerNav">
 
+        <div class="navbar-nav ml-sm-auto">
+            <a class="nav-item nav-link" href="#">Hem</a>
+            <a class="nav-item nav-link" href="list.html">List</a>
+            <a class="nav-item nav-link" href="graphic.html">Graphic</a>
+
+        </div><!--Navbar med items och links-->
+    </div><!--Navbar collapse-->
+    </div><!--Navbar container-->
+</nav><!--Navbar-->
 
 <body>
     
 
+<div class="container">
+
+    <div class="rubrik">
+        <h1>Välkommen till Ernestos hemsida</h1>
+    </div>
+
+    <div class="object1">
+        <p>Detta är min sida för tentan i HTML CSS kursen. Den kommer innehålla lite olika saker samt mycket varienda css. Ni kan navigera runt sidan med hjälp av nagitationen ovan. </p>
+ 
+    </div>
+
+
+    <div class="form">
+        <form>
+            <label for="petname">Husdjurets namn</label><br>
+            <input type="text" id="petname" name="petname" value="Namn"><br>
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" value="Email adress"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
 
 
+
+
+
+
+
+</div>
+
+
+<footer class="site-footer p-4 fixed-bottom">
+    <div class="container text-center">
+        <small>Copyright &copy; 2020 Ernesto Neyra</small>
+
+
+</footer>
 
     <script src="./bs js/jquery.slim.min.js"></script>
     <script src="./bs js/popper.min.js"></script>

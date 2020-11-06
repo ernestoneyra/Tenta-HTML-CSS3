@@ -13,11 +13,99 @@
     <link rel="stylesheet" href="./css/Style.css">
     <title>List</title>
 </head>
+<style>
+    body{
+        background-color: blanchedalmond;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
+<nav class="navbar navbar-dark navbar-expand-sm">
+    <div class="container">
+        <div class="navbar-brand">Ernesto Tenta</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myToggleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+
+        <div class="navbar-nav ml-sm-auto">
+            <a class="nav-item nav-link" href="Index.html">Hem</a>
+            <a class="nav-item nav-link" href="#">List</a>
+            <a class="nav-item nav-link" href="graphic.html">Graphic</a>
+
+        </div><!--Navbar med items och links-->
+    </div><!--Navbar collapse-->
+    </div><!--Navbar container-->
+</nav><!--Navbar-->
+
 <body>
     
+    <div class="container">
 
 
+    <!--Table. Lista i lista-->    
+    <table class="list">
+        <ul>
+            <li style="color: red;">Filmer</li>
+                <ol>
+                <li>Home Alone</li>
+                <li>Gladiator</li>
+                <li>Back to the future</li>
+                </ol><!--list item-->
 
+            <li style="color: blue;">TV-serier</li>
+                <ol>
+                    <li>Hypnosis Mic</li>
+                    <li>Univer</li>
+                    <li>The Blacklist</li>
+                </ol><!--list item-->
+
+            <li  style="color: violet;">Spel</li>
+                <ol>
+                    <li>Final Fantasy VII</li>
+                    <li>Persona 5</li>
+                    <li>Rage 2</li>
+                </ol><!--list item-->
+
+            <li style="color: rgb(255, 0, 187);">Sport</li>
+                <ol>
+                    <li>Fotboll</li>
+                    <li>Basket</li>
+                    <li>Badmington</li>
+                </ol><!--list item-->
+
+            <li style="color: #ff8c00;">Aktiviteter</li>
+                <ol>
+                    <li>Sport</li>
+                    <li>Spela</li>
+                    <li>Springa</li>
+                </ol><!--list item-->
+
+        </ul><!--Overordnad lista-->
+
+    </table><!--Table. Lista i lista-->
+
+    <!--Ordnad list-->
+    <div class="list2">
+        <ol class="ol">
+            <li>Husdjur</li>
+            <li>Webbläsare</li>
+            <li>CSS ramverk</li>
+            <li>Kaffe</li>
+            <li>Böcker</li>
+
+        </ol><!--list2-->
+
+    </div><!--list2. Ordnad lista-->
+
+    </div><!--Container-->
+
+
+    <footer class="site-footer p-4 fixed-bottom">
+        <div class="container text-center">
+            <small>Copyright &copy; 2020 Ernesto Neyra</small>
+    
+
+    </footer><!--footers-->
 
     <script src="./bs js/jquery.slim.min.js"></script>
     <script src="./bs js/popper.min.js"></script>
